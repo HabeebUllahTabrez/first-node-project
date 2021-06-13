@@ -22,7 +22,7 @@ const route = (req, res) => {
         res.setHeader("Content-Type", "text/html");
         res.write("<html>");
         res.write("<head><title>Document</title></head>");
-        res.write("<body><ul><li>User 1</li><li>User 2</li><li>User 3</li></ul></body>");
+        res.write("<body><ul><li>Habeeb</li><li>Ullah</li><li>Tabrez</li></ul></body>");
         res.write("</html>");
         return res.end();
     }
